@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web sobre Lucas Sesma">
+    <meta name="author" content="Lucas Sesma Vinck">
+    <title>Lucas Sesma Vinck</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <img src="./img/Yo.jpg" alt="Foto de Lucas Sesma Vinck">
+    <h2>Lucas Sesma Vinck</h2>
+    <nav>
+        <ul>
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#Sobre_mi">Sobre mi</a></li>
+            <li><a href="#portafolio">Portafolio</a></li>
+            <li><a href="#Contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h2> ¡Hola! Soy Lucas Sesma Vinck</h2>
+            <p>Estudiante 1º Asir en Prometeo FP</p>
+        </section>
+        <section id="Sobre_mi">
+            <h2>Sobre mi</h2>
+            <p>Soy un chico de 18 años de Gijón, Asturias. Me fascina el mundo de la ciberseguridad. Me encantan los deportes, juego al balonmano en primera división nacional, juego al padel y también hago surf. También me gusta mucho el mundo de la economía, todo lo relacionado con las inversiones y con la bolsa.</p>
+            <img src="./img/yo-balonmano.png" alt="Lucas Sesma tirando en un partido">
+        </section>      
+      <section id="portafolio">
+        <h2>Portafolio</h2>
+          <div class="portafolio-grid">
+            <article class="project">
+            <h3>Inversiones</h3>
+            <p>Invertir en oro y en el S&P 500 permite combinar seguridad y crecimiento. El oro protege en tiempos difíciles, mientras que el S&P 500 ofrece buenas oportunidades de rentabilidad. Juntos forman una base sólida para un proyecto personal de inversión.</p>
+           <figure>
+              <img src="./img/grafica-oro.png" alt="Gráfica evolución oro" width="100px">
+              <figcaption>Gráfica crecimiento oro</figcaption>
+           </figure>
+         </article>
+         <article class="project">
+          <h3>Proyecto realidad virtual</h3>
+          <p>En mi segundo año del bachiller hice un trabajo sobre realidad virtual, en el cual representé los switches de un teclado, los tipos que hay y para que funcionan.</p>
+          <figure>
+            <video src="./media/Representación 3d.mp4" alt="Video representación 3d" autoplay loop controls></video>
+            <figcaption>Representación 3d</figcaption>
+          </figure>
+          </article>
+         <article class="project">
+          <h3>Ahorcado en python</h3>
+          <p>Enb segundo de bachiler, en la asignatura de informática, en la cual vimos python casi todo el año, hicimos como proyectio final un ahorcado con python.</p>
+          <figure>
+            <video src="./media/Ahorcado.py - Visual Studio Code 2025-11-06 18-43-30 - Trim.mp4" alt="Video ahorcado python" autoplay loop controls ></video>
+            <figcaption>Trabajo python</figcaption>
+          </figure>
+          </article>
+          <article class="project">
+          <h3>Marca de ropa</h3>
+          <p>Hace un par de años intenté crear una marca de ropa con un amigo, llegamos a tener nombre, logo y diseños pero al final no pudo salir adelante</p>
+          <figure>
+            <img src="./img/camiseta-marca-ropa.png" alt="Camiseta maarrón marca de ropa propia">
+            <figcaption>Camiseta marca ropa</figcaption>
+          </figure>
+          </article>
+        </div>
+      </section>
+      <section id="Contacto">
+        <h2>Contacto</h2>
+        <form action="Contacto">
+        <label for="Nombre">Nombre </label>
+        <input type="text" id="Nombre" name="Nombre"><br>
+        <label for="Asunto">Asunto</label>
+        <input type="text" id="Asunto" name="Asunto"><br>
+        <label for="Mensaje">Mensaje</label>
+        <textarea name="Mensaje" id="Mensaje" name="Mensaje"></textarea>
+        <button type="submit" id="Enviar">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>©Lucas Sesma Vinck. Todos los derechos reservados</p>
+      <a href="https://github.com/Lucassesma" target="_blank">Github</a>
+      <a href="https://www.linkedin.com/in/lucas-sesma-vinck-0a354334b/" target="_blank">Linkedin</a>
+      <a href="https://www.instagram.com/lucasseesma_/" target="_blank">Instagram</a>
+    </footer>
+</body>
+</html> 

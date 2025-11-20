@@ -131,7 +131,7 @@ header nav a:hover {
 
 .project img, .project video {
     width: 100%;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
     display: block;
 }
